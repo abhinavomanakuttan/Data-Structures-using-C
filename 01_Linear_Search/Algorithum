@@ -1,1 +1,15 @@
+        Algorithum
+
+Step1: Start
+Step2: Read the limit 'n'
+Step3: Read the n Number into an array
+Step4: Read the Searchkey
+Step5: Reapet the following steps until i<n
+    Step5.1:Check if(arr[i]==key) -> if true go to step 5.1.1
+      Step5.1.1:print the element is present in the list at index i
+      Step5.1.2:Break the loop
+Step6:Print the element is not present in the list 
+Step7:Stop
+
+
 
