@@ -1,1 +1,17 @@
+Step1:Start
 
+Step2:Read the elements limits 'n'
+
+Step3:Read 'n' elements into an arr[]
+
+Step4:Repeat the following step until i<n-1
+
+    Step4.1:min=i,initaliz j=i+1
+
+    Step4.2:Repeat the following step until j<n 
+
+        Step4.2.1:if arr[j]<arr[min]
+                          min=j
+    Step4.3:Swap arr[i] $ arr[min]
+
+Step5:Display sorted elements
