@@ -1,0 +1,39 @@
+    Algorithm
+
+Step1:Start 
+
+Step2:Read the limit 'n'
+
+Step3:Read a Sortted array of 'n' element 
+
+Step4:Read searchkey
+
+Step5:Initialze left=0 ,right=n-1
+
+Step6:Repeat the following step until left<=right  ( else goto step 7)
+
+    Step6.1:mid=(left+right)/2   =>(if true goto Step6.2.1
+                                      else got to Step6.3
+
+    Step6.2:Check if key==a[mid]
+
+        Step6.2.1:print element found at mid+1 th position
+
+        Step6.2.2:goto step8
+
+    Step6.3:Check if key <a[mid] =>if true goto step6.3.1
+                                      else goto step6.4
+
+        Step6.3:Check if key<a[mid]  =>if true goto step6.4
+
+    Step6.4:Check if key>a[mid]  =>if true goto step 6.4.1
+
+        Step6.4.1:left=mid-1
+
+Step7:Check if(left<right)  =>if true goto step7.1
+                                else goto step8
+      Step7.1:Print"Element is not found"
+      Step7.2:goto step8
+
+Step8:Stop
+
