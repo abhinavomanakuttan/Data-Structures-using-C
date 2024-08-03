@@ -9,3 +9,5 @@ Q2. Binary Search
 Q3. Bubble Sort
 
 Q4.Selection Sort
+
+Q5. 
