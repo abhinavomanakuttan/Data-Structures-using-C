@@ -1,6 +1,6 @@
 # Data-Structures-using-C
 
-*KTU S3 Data Structures lab 
+*KTU S3 Data Structures lab exam question and solutions with algorithm
 
 Q1. Linear Search 
 
