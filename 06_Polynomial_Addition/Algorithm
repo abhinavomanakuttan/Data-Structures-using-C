@@ -1,1 +1,29 @@
-
+ALGORITHM
+Step 1: start
+Step 2: Define structure with two data members, say coefficient and exponent and also declare array of structure variables P1[10] P2[10], Ps [10].
+step3: Read numbers of terms in P1,P2&P3
+step4: Read two polynomials and store them to P1 and P2.
+step5: Add the polynomial
+	Step 5.1: 1=0. j=0, k=0
+	step 5.2: Repeat the following steps until 1<n1 and j<n2
+	  Step 5:2.1: check whether PI [1] expo > P₂[i].expo. if true goto step 5.2.1.1 else go to step 5.2.2 
+	  	Step 5.2.1.1:P3[k].coeff = P1[i].coeff
+			     P3[k].expo = P1[i].expo
+			     i++,j++
+	Step 5.2.2: Check if P1[i].expo < P2 [j].expo. If true go to step 5.22.1 else goto
+	step 5.2.3 
+	  step 5.2.2.1: P3 [k].coeff = P1[i].coeff 
+			P3(1).expo=12 (3).expo 
+	Step 5.2.3: Check if Pi[1].expo = P₂ [i]-expo. if true goto step5.2.3.1 else goto ster 5.3
+          Step 5.2.3.1: P3[k].coeff = P2[j]. Coeff + Pi[i].coeff
+                        P3[k].coeff = P.[i].expo
+			i++,j++,k++
+	Step 5.3: Repeat while i<n1
+	  Step 5.3.1: P3[k].coeff = P1[i].coeff
+			P3[k].expo=P1[i].expo
+Step 5.4: Repeat while j<n2
+	Step 5.4.1: P3[k].coeff=Ps[i].coeff
+		P3[k].expo = P2[j].expo
+		J++, k++
+Step 6. Display the result
+step a stop
