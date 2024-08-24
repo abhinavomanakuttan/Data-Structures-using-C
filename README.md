@@ -15,3 +15,7 @@ Q4.Selection Sort
 Q5.Sparse Matrix 
 
 Q6.Polynomial_Addition
+
+Q7.STACK
+
+Q8.Infix_to_Postfix
