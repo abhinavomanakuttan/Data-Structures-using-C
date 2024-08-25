@@ -26,12 +26,11 @@ Step 6: Function display():
     Step 6.1: If top == -1:
             Step 6.1.1: Print "Stack is empty."
             Step 6.1.2: Return
-    End if
-    Print "Stack elements are: "
-    For i = 0 to top:
-        Print stack[i]
-    End For
-    Print a new line
+    Step 6.2 : Print "Stack elements are: "
+            Step 6.2.1: Repeate the following steps unitl i<=top
+            Step 6.2.2:print the stack
+   
+
 
 Main program:
     While true:
