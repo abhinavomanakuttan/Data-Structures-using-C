@@ -1,1 +1,61 @@
+Step 1: Start
+
+Step 2: Define constants:MAX_SIZE = 100  // Maximum size of the stack
+
+Step 3: Initialize: top = -1  // To keep track of the top of the stack
+        stack[MAX_SIZE]  // Array to store stack elements
+        (public)
+Step 4:Function push(x): // define a function called push
+      Step 4.1: If top == MAX_SIZE - 1:
+          Step 4.1.1: Print "Stack is full. Overflow condition!"
+          Step 4.1.2: Return
+    
+      Step 4.2: stack[++top]=x // top will increment the value and return it 
+
+Step 5: Function pop():
+    Step 5.1: If top == -1:
+        Step 5.1.1: Print "Stack is empty. Underflow condition!"
+        Step 5.1.2: Return -1
+
+    Step 5.2:
+    return stack[top--]  // Store stack[top] in a variable 
+                            Decrement top by 1 
+                            Return the stored value
+
+Step 6: Function display():
+    Step 6.1: If top == -1:
+            Step 6.1.1: Print "Stack is empty."
+            Step 6.1.2: Return
+    End if
+    Print "Stack elements are: "
+    For i = 0 to top:
+        Print stack[i]
+    End For
+    Print a new line
+
+Main program:
+    While true:
+        Print "1. Push"
+        Print "2. Pop"
+        Print "3. Display"
+        Print "4. Exit"
+        Print "Enter your choice: "
+        Read choice
+        If choice is 1:
+            Print "Enter the element to push: "
+            Read x
+            Call push(x)
+        Else If choice is 2:
+            Set x = pop()
+            If x is not -1:
+                Print "Popped element is: x"
+        Else If choice is 3:
+            Call display()
+        Else If choice is 4:
+            Exit the program
+        Else:
+            Print "Invalid choice. Please try again."
+        End if
+    End While
+End Main
 
