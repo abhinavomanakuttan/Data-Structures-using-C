@@ -32,17 +32,18 @@ Step 6: Function display():
    
 
 
-Main program:
-    While true:
-        Print "1. Push"
-        Print "2. Pop"
-        Print "3. Display"
-        Print "4. Exit"
-        Print "Enter your choice: "
-        Read choice
-        If choice is 1:
-            Print "Enter the element to push: "
-            Read x
+Step 7: Main program:
+    Step 7.1: While true:
+        Step 7.1 : Print "1. Push"
+        Step 7.2 : Print "2. Pop"
+        Step 7.3 : Print "3. Display"
+        Step 7.4 : Print "4. Exit"
+        Step 7.5 : Print "Enter your choice: "
+        Step 7.6 : Read choice
+
+        Step 7.7 : if choice is 1:
+                 Step 7.7.1 : Print "Enter the element to push: "
+                        Read x
             Call push(x)
         Else If choice is 2:
             Set x = pop()
