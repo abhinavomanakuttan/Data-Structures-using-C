@@ -5,6 +5,7 @@ Step 2: Define constants:MAX_SIZE = 100  // Maximum size of the stack
 Step 3: Initialize: top = -1  // To keep track of the top of the stack
         stack[MAX_SIZE]  // Array to store stack elements
         (public)
+
 Step 4:Function push(x): // define a function called push
       Step 4.1: If top == MAX_SIZE - 1:
           Step 4.1.1: Print "Stack is full. Overflow condition!"
@@ -43,19 +44,21 @@ Step 7: Main program:
 
         Step 7.7 : if choice is 1:
                  Step 7.7.1 : Print "Enter the element to push: "
-                        Read x
-            Call push(x)
-        Else If choice is 2:
-            Set x = pop()
-            If x is not -1:
-                Print "Popped element is: x"
-        Else If choice is 3:
-            Call display()
-        Else If choice is 4:
-            Exit the program
-        Else:
-            Print "Invalid choice. Please try again."
-        End if
-    End While
-End Main
+                 Step 7.7.2 : Read x
+                 Step 7.7.3 : Call push(x)
 
+        Step 7.8 : Else If choice is 2:
+                 Step 7.8.1 : Set x = pop()
+                 Step 7.8.2 : If x is not -1:
+                 Step 7.8.3 : Print "Popped element is: x"
+
+        Step 7.9 : Else If choice is 3:
+                Step 7.9.1 : Call display()
+
+        Step 7.10 : Else If choice is 4:
+            Step 7.10.1 : Exit the program
+
+        Step 7.11: Else:
+             Step 7.11.1 :Print "Invalid choice. Please try again."
+
+Step 8 : Stop
