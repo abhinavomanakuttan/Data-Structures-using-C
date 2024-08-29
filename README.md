@@ -23,3 +23,5 @@ Q6.Polynomial_Addition
 Q7.STACK
 
 Q8.Infix to Postfix
+
+Q9.Queue
