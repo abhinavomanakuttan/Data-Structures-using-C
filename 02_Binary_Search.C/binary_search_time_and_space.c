@@ -8,7 +8,7 @@ char choice; //1 space
 times += 10;
 space = 77; //space = (10 * 4) + (9 * 4 = 36) + 1
 
-do{
+
 //getting array size
 printf("Enter array limit: ");
 scanf("%d", &limit);
@@ -65,7 +65,5 @@ times += 2;
 times += 5;// for running or failing of do while loop
 printf("\nTime complexity is  %d\n", times);
 printf("Space complexity is  %d\n", space);
-printf("\nEnter Your Choice \nFor SEARCHING Type s \nFor EXIT, press any letter\nChoice: ");
-scanf(" %c", &choice);
-}while(choice == 'S' || choice == 's');
+
 }
