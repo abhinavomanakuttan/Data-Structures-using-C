@@ -4,9 +4,13 @@
 
 <hr>
 
-Q1. Linear Search 
+Q1. Linear Search <br>
 
-Q2. Binary Search
+  * with space and time complexity
+
+Q2. Binary Search <br>
+
+  * with space and time complexity
 
 Q3. Bubble Sort
 
