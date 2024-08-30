@@ -28,7 +28,7 @@ Q9.Queue
 
 <br>
 <hr>
-if you guys want terminal(college,{ ubantu} ) to get the output 
+if you guys want terminal(college,{ ubuntu} ) to get the output 
 <br>
 <br>
 
