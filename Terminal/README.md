@@ -5,7 +5,7 @@ To get the out put in the syntax of ubuntu
 
 if you have any further doubts ,contact
 <br>
-[Ajith Joshy](https://github.com/joshyajith863)
+[Ajith Joshy](https://github.com/joshyajith863/html_with_Basic_Css/blob/main/Ubuntu%20Terminal%20Simulator.html)
 
 <br>
 
