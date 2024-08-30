@@ -25,3 +25,13 @@ Q7.STACK
 Q8.Infix to Postfix
 
 Q9.Queue
+
+<br>
+<hr>
+if you guys want terminal(college,{ ubantu} ) to get the output 
+<br>
+<br>
+
+[Terminal](https://github.com/joshyajith863/html_with_Basic_Css/blob/main/Ubuntu%20Terminal%20Simulator.html)
+
+<hr>
