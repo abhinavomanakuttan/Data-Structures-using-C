@@ -4,15 +4,17 @@
 
 <hr>
 
-Q1. Linear Search <br>
+Q1. [Linear Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/01_Linear_Search)
+<br>
 
   * with space and time complexity
 
-Q2. Binary Search <br>
+Q2. [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/02_Binary_Search.C)
+<br>
 
   * with space and time complexity
 
-Q3. Bubble Sort
+Q3. [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/03_Bubble_sort.C)
 
 Q4.Selection Sort
 
