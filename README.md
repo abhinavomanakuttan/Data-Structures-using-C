@@ -22,11 +22,11 @@ Q5.[ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using
 
 Q6.[ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
 
-Q7.STACK
+Q7.[ STACK ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/07_STACK)
 
-Q8.Infix to Postfix
+Q8.[ Infix to Postfix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/08_InfixToPostfix)
 
-Q9.Queue
+Q9.[Queue]
 
 <br>
 <hr>
