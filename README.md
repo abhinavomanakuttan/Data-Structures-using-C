@@ -20,7 +20,7 @@ Q4.[ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-usin
 
 Q5.[ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix)
 
-Q6.Polynomial_Addition
+Q6.[ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
 
 Q7.STACK
 
