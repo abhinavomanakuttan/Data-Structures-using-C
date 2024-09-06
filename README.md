@@ -16,9 +16,9 @@ Q2. [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-usin
 
 Q3. [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/03_Bubble_sort.C)
 
-Q4.Selection Sort
+Q4.[ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/04_Selection_Sort)
 
-Q5.Sparse Matrix 
+Q5.[ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix)
 
 Q6.Polynomial_Addition
 
