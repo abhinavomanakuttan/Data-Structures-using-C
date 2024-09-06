@@ -26,7 +26,7 @@ Q7.[ STACK ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/
 
 Q8.[ Infix to Postfix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/08_InfixToPostfix)
 
-Q9.[Queue]
+Q9.[Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/09_Queue)
 
 <br>
 <hr>
