@@ -16,17 +16,19 @@ Q2. [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-usin
 
 Q3. [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/03_Bubble_sort.C)
 
-Q4.[ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/04_Selection_Sort)
+Q4. [ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/04_Selection_Sort)
 
-Q5.[ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix)
+Q5. [ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix)
 
-Q6.[ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
+Q6. [ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
 
-Q7.[ STACK ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/07_STACK)
+Q7. [ STACK ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/07_STACK)
 
-Q8.[ Infix to Postfix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/08_InfixToPostfix)
+Q8. [ Infix to Postfix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/08_InfixToPostfix)
 
-Q9.[Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/09_Queue)
+Q9. [Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/09_Queue)
+
+Q10.[Circular Queue](10_Circular_Queue)
 
 <br>
 <hr>
