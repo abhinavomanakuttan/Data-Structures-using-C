@@ -43,6 +43,8 @@ Q11.[Single Linked List](https://github.com/abhinavomanakuttan/Data-Structures-u
 Q12.[Stack_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/12_Stack_Using_LinkedList)
 
 Q13.[Double_Ended_Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/13_Double_Ended_Queue)
+
+Q14.[Polynomial_Addition_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/06_Polynomial_Addition/Problem1.c)
 <br>
 <hr>
 if you guys want terminal(college,{ ubuntu} ) to get the output 
