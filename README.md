@@ -39,6 +39,8 @@ Q9. [Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/m
 Q10.[Circular Queue](10_Circular_Queue)
 
 Q11.[Single Linked List](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/11_Single_linked_list/SIngle_linked_List.c)
+
+Q12.[Stack_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/12_Stack_Using_LinkedList)
 <br>
 <hr>
 if you guys want terminal(college,{ ubuntu} ) to get the output 
