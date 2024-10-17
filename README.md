@@ -15,10 +15,18 @@ Q2. [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-usin
   * with space and time complexity
 
 Q3. [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/03_Bubble_sort.C)
+<br>
+
+  * with space and time complexity
 
 Q4. [ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/04_Selection_Sort)
+<br>
 
-Q5. [ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix)
+  * with space and time complexity
+
+<br>
+
+Q5. [ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix) 
 
 Q6. [ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
 
