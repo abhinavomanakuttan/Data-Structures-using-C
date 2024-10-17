@@ -29,6 +29,13 @@ Q4. [ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-usi
 Q5. [ Sparse Matrix ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/05_Sparse_Matrix) 
 
 Q6. [ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
+<br>
+
+  * Q6.1-> [Polynomial_Addition_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/06_Polynomial_Addition/Problem1.c)
+
+<br>
+
+
 
 Q7. [ STACK ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/07_STACK)
 
@@ -44,7 +51,6 @@ Q12.[Stack_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structur
 
 Q13.[Double_Ended_Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/13_Double_Ended_Queue)
 
-Q14.[Polynomial_Addition_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/06_Polynomial_Addition/Problem1.c)
 <br>
 <hr>
 if you guys want terminal(college,{ ubuntu} ) to get the output 
