@@ -51,6 +51,8 @@ Q12.[Stack_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structur
 
 Q13.[Double_Ended_Queue](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/13_Double_Ended_Queue)
 
+Q14.[Binary_Tree](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/14_Binary_Tree)
+
 <br>
 <hr>
 if you guys want terminal(college,{ ubuntu} ) to get the output 
