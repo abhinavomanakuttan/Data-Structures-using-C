@@ -1,140 +1,106 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <stdlib.h>
 
-// Define the structure for a tree node
+// Define a node structure
 struct Node {
-    int data;                // Data stored in the node
-    struct Node* left;       // Pointer to the left child
-    struct Node* right;      // Pointer to the right child
+    int data;
+    struct Node *left;
+    struct Node *right;
 };
 
 // Function to create a new node
 struct Node* createNode(int data) {
-    // Allocate memory for a new node
     struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));
-    if (newNode == NULL) {  // Check if memory allocation was successful
-        fprintf(stderr, "Memory allocation failed\n");
-        exit(1);  // Exit the program if memory allocation fails
-    }
-    // Initialize the new node with the provided data and set left and right children to NULL
     newNode->data = data;
     newNode->left = NULL;
     newNode->right = NULL;
-    return newNode;  // Return the created node
+    return newNode;
 }
 
-// Function to insert values in level order (breadth-first)
-void insertLevelOrder(struct Node** root, int data) {
-    // Create a new node with the provided data
-    struct Node* newNode = createNode(data);
-    
-    // If the tree is empty, make the new node the root
-    if (*root == NULL) {
-        *root = newNode;
+// Function to insert a node into the binary tree
+struct Node* insert(struct Node *node, int data) {
+    if (node == NULL) {
+        return createNode(data);
+    }
+
+    if (data < node->data) {
+        node->left = insert(node->left, data);
     } else {
-        // Use a simple array-based queue for level-order traversal
-        struct Node* queue[100];  // Queue with a fixed size of 100 (can be adjusted as needed)
-        int front = 0, rear = 0;  // Initialize queue front and rear indices
-        
-        // Enqueue the root node to start level order traversal
-        queue[rear++] = *root;
-        
-        // Loop through the queue until the correct position for insertion is found
-        while (front < rear) {
-            // Dequeue the current node
-            struct Node* current = queue[front++];
-            
-            // Check if the left child is empty
-            if (current->left == NULL) {
-                // Insert the new node as the left child
-                current->left = newNode;
-                return;
-            } else {
-                // Otherwise, enqueue the left child for further checking
-                queue[rear++] = current->left;
-            }
-            
-            // Check if the right child is empty
-            if (current->right == NULL) {
-                // Insert the new node as the right child
-                current->right = newNode;
-                return;
-            } else {
-                // Otherwise, enqueue the right child for further checking
-                queue[rear++] = current->right;
-            }
+        node->right = insert(node->right, data);
+    }
+
+    return node;
+}
+
+// Preorder traversal (Root, Left, Right)
+void preorderTraversal(struct Node* root) {
+    if (root != NULL) {
+        printf("%d -> ", root->data);
+        preorderTraversal(root->left);
+        preorderTraversal(root->right);
+    }
+}
+
+// Inorder traversal (Left, Root, Right)
+void inorderTraversal(struct Node* root) {
+    if (root != NULL) {
+        inorderTraversal(root->left);
+        printf("%d -> ", root->data);
+        inorderTraversal(root->right);
+    }
+}
+
+// Postorder traversal (Left, Right, Root)
+void postorderTraversal(struct Node* root) {
+    if (root != NULL) {
+        postorderTraversal(root->left);
+        postorderTraversal(root->right);
+        printf("%d -> ", root->data);
+    }
+}
+
+int main() {
+    struct Node *root = NULL;
+    int choice, value;
+
+    // User input to create the binary tree
+    while (1) {
+        printf("\nBinary Tree Operations:\n");
+        printf("1. Insert a node\n");
+        printf("2. Preorder Traversal\n");
+        printf("3. Inorder Traversal\n");
+        printf("4. Postorder Traversal\n");
+        printf("5. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                printf("Enter the value to insert: ");
+                scanf("%d", &value);
+                root = insert(root, value);
+                break;
+            case 2:
+                printf("Preorder Traversal: ");
+                preorderTraversal(root);
+                printf("\n");
+                break;
+            case 3:
+                printf("Inorder Traversal: ");
+                inorderTraversal(root);
+                printf("\n");
+                break;
+            case 4:
+                printf("Postorder Traversal: ");
+                postorderTraversal(root);
+                printf("\n");
+                break;
+            case 5:
+                exit(0);
+            default:
+                printf("Invalid choice!\n");
         }
     }
-}
 
-// Function for in-order traversal (left-root-right)
-void inOrderTraversal(struct Node* root) {
-    if (root != NULL) {
-        inOrderTraversal(root->left);  // Visit left subtree
-        printf("%d ", root->data);     // Print root node's data
-        inOrderTraversal(root->right); // Visit right subtree
-    }
-}
-
-// Function for pre-order traversal (root-left-right)
-void preOrderTraversal(struct Node* root) {
-    if (root != NULL) {
-        printf("%d ", root->data);     // Print root node's data
-        preOrderTraversal(root->left);  // Visit left subtree
-        preOrderTraversal(root->right); // Visit right subtree
-    }
-}
-
-// Function for post-order traversal (left-right-root)
-void postOrderTraversal(struct Node* root) {
-    if (root != NULL) {
-        postOrderTraversal(root->left);  // Visit left subtree
-        postOrderTraversal(root->right); // Visit right subtree
-        printf("%d ", root->data);       // Print root node's data
-    }
-}
-
-// Function to free the memory of the binary tree
-void freeTree(struct Node* root) {
-    if (root != NULL) {
-        freeTree(root->left);  // Free left subtree
-        freeTree(root->right); // Free right subtree
-        free(root);            // Free the current node
-    }
-}
-
-// Main function to demonstrate the binary tree operations
-int main() {
-    struct Node* root = NULL;  // Initialize the root of the tree to NULL
-    int n;
-
-    // Prompt user for number of nodes to insert
-    printf("Enter the number of nodes to insert: ");
-    scanf("%d", &n);
-
-    // Insert nodes into the binary tree using level order
-    for (int i = 0; i < n; i++) {
-        int value;
-        printf("Enter value %d: ", i + 1);
-        scanf("%d", &value);
-        insertLevelOrder(&root, value);  // Insert each value into the tree
-    }
-
-    // Display the tree using different traversals
-    printf("In-order Traversal of the Binary Tree:\n");
-    inOrderTraversal(root);  // In-order traversal (left-root-right)
-    printf("\n");
-
-    printf("Pre-order Traversal of the Binary Tree:\n");
-    preOrderTraversal(root);  // Pre-order traversal (root-left-right)
-    printf("\n");
-
-    printf("Post-order Traversal of the Binary Tree:\n");
-    postOrderTraversal(root);  // Post-order traversal (left-right-root)
-    printf("\n");
-
-    // Free the allocated memory for the tree
-    freeTree(root);
-
-    return 0;  // End of program
+    return 0;
 }
