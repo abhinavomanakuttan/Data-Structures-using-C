@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-  int c, first, last, middle, n, search, array[100];
+  int i, first, last, middle, n, search, array[100];
 
   printf("Enter number of elements\n");
   scanf("%d", &n);
 
   printf("Enter %d integers\n", n);
 
-  for (c = 0; c < n; c++)
-    scanf("%d", &array[c]);
+  for (i = 0; i < n; i++)
+    scanf("%d", &array[i]);
 
   printf("Enter value to find\n");
   scanf("%d", &search);
