@@ -23,7 +23,7 @@ int main() {
     printf("Enter the elements of the matrix:\n");
     for (int i = 0; i < m; i++) {
         for (int j = 0; j < n; j++) {
-            printf("%d %d :",i+1,j+1); // index of the matirx 
+            printf("(%d %d) :",i+1,j+1); // index of the matirx 
             scanf("%d", &sparseMatrix[i][j]);// Input each element of the matrix
         }
     }
