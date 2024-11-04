@@ -1,79 +1,63 @@
-      #include <stdio.h>  
-      
-    # define max 3
-    int queue[max];  // array declaration  
-    int front=-1;  
-    int rear=-1;  
-    // function to insert an element in a circular queue  
-    void enqueue(int element)  
-    {  
-        if(front==-1 && rear==-1)   // condition to check queue is empty  
-        {  
-            front=0;  
-            rear=0;  
-            queue[rear]=element;  
-        }  
-        else if((rear+1)%max==front)  // condition to check queue is full  
-        {  
-            printf("Queue is overflow..");  
-        }  
-        else  
-        {  
-            rear=(rear+1)%max;       // rear is incremented  
-            queue[rear]=element;     // assigning a value to the queue at the rear position.  
-        }  
-    }  
-      
-    // function to delete the element from the queue  
-    int dequeue()  
-    {  
-        if((front==-1) && (rear==-1))  // condition to check queue is empty  
-        {  
-            printf("\nQueue is underflow..");  
-        }  
-     else if(front==rear)  
-    {  
-       printf("\nThe dequeued element is %d", queue[front]);  
-       front=-1;  
-       rear=-1;  
-    }   
-    else  
-    {  
-        printf("\nThe dequeued element is %d", queue[front]);  
-       front=(front+1)%max;  
-    }  
-    }  
-    // function to display the elements of a queue  
-    void display()  
-    {  
-        int i=front;  
-        if(front==-1 && rear==-1)  
-        {  
-            printf("\n Queue is empty..");  
-        }  
-        else  
-        {  
-            printf("\nElements in a Queue are :");  
-            for (int i = front; i <= rear; i++) {
-            printf("%d ", queue[i]);
+ #include <stdio.h>
+#include <stdlib.h>
+#include <stdbool.h>
+
+#define SIZE 3 // Fixed queue size of 3
+int front = -1, rear = -1, cq[SIZE];
+
+void enqueue(int item) {
+    if ((rear + 1) % SIZE == front) {
+        printf("Queue overflow\n");
+    } else {
+        if (front == -1 && rear == -1) {
+            front = 0; // Initialize front and rear for the first element
+        }
+        rear = (rear + 1) % SIZE; // Move rear to the next position
+        cq[rear] = item; // Insert item
+        printf("%d successfully inserted\n", item);
+    }
+}
+
+void dequeue() {
+    if (front == -1 && rear == -1) {
+        printf("Queue underflow\n");
+    } else {
+        printf("%d successfully deleted\n", cq[front]);
+        cq[front] = 0; // Clear the position
+        if (front == rear) { // Queue becomes empty
+            front = -1;
+            rear = -1;
+        } else {
+            front = (front + 1) % SIZE; // Move front to the next position
+        }
+    }
+}
+
+void display() {
+    if (front == -1 && rear == -1) {
+        printf("Queue is empty\n");
+    } else {
+        printf("Queue elements:\n");
+        int i = front;
+        while (true) {
+            printf("%d\t", cq[i]);
+            if (i == rear) break; // Break if we've reached the rear
+            i = (i + 1) % SIZE; // Circular increment
         }
         printf("\n");
-        }  
-    }  
+    }
+}
+
 int main() {
-
-
-    int choice, element;
-    while (1) {
-        printf("\n1. Enqueue\n2. Dequeue\n3. Display\n4. Exit\n");
-        printf("Enter your choice: ");
+    int item, choice;
+    do {
+        printf("\n1. Enqueue\n2. Dequeue\n3. Display queue elements\n4. Exit\nEnter your choice:\n");
         scanf("%d", &choice);
-
         switch (choice) {
             case 1:
-                printf("Enter the element to enqueue: ");
-                scanf("%d", &element);
-                enqueue(element);
+                printf("Enter element to be inserted: ");
+                scanf("%d", &item);
+                enqueue(item);
                 break;
             case 2:
                 dequeue();
@@ -82,10 +66,11 @@ int main() {
                 display();
                 break;
             case 4:
-                printf("Exiting...\n");
-                return 0;
+                printf("\nExiting...\n");
+                exit(0);
             default:
-                printf("Invalid choice. Please try again.\n");
+                printf("Invalid choice, please try again.\n");
         }
-    }
+    } while (true);
+    return 0; // Return statement for main
 }
