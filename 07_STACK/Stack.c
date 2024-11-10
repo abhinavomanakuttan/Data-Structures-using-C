@@ -2,7 +2,7 @@
 
 #define MAX_SIZE 5
 
-int top = -1;
+int top = -1; //intialze top =-1
 int stack[MAX_SIZE];
 
 void push(int x) {
@@ -10,15 +10,15 @@ void push(int x) {
         printf("Stack is full. Overflow condition!\n");
         return;
     }
-    stack[++top] = x;
+    stack[++top] = x; //assineing value to the stack
 }
 
 int pop() {
-    if(top == -1) {
+    if(top == -1) {  
         printf("Stack is empty. Underflow condition!\n");
         return -1;
     }
-    return stack[top--];
+    return stack[top--];  // deleting the last element from the stack
 }
 
 void display() {
