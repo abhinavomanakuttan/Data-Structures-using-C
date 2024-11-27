@@ -132,9 +132,10 @@ If you found this repository helpful, please give it a ⭐! It motivates us to k
 
  
 <br>
-<hr>
+
+## Output Screensort from ubuntu
 if you guys want terminal(college,{ ubuntu} ) to get the output 
-<br>
+
 <br>
 
 [Terminal](https://github.com/joshyajith863/html_with_Basic_Css/tree/main)
