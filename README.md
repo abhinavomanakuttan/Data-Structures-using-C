@@ -9,6 +9,7 @@ This repository provides in-depth implementations and examples of commonly used 
 
  
 ---
+
 ### 📖 Data Structures Covered
 - ** Arrays: Fixed-size data structure for storing elements sequentially.
 - ** Linked Lists: Dynamic memory allocation and pointers-based structure.
