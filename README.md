@@ -71,7 +71,7 @@ This repository provides in-depth implementations and examples of commonly used 
 <br>
 
 ### 🔹 **7. Polynomial Operations**
-- ➕ [ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/06_Polynomial_Addition)
+- ➕ [ Polynomial_Addition ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/06_Polynomial_Addition/Polynomial_Addition.c)
 
 - -> [Polynomial_Addition_Using_LinkedList](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/06_Polynomial_Addition/Problem1.c)
 
