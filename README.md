@@ -26,7 +26,7 @@ This repository provides in-depth implementations and examples of commonly used 
 <br>
 
 ### 🔹 **1. Searching Techniques**
-- 🔍 [Linear Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/01_Linear_Search)
+- 🔍 [Linear Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/01_Linear_Search/Linear_Search.c)
     
   * [Linear Search ( with space and time complexity )]()  
      
