@@ -30,7 +30,7 @@ This repository provides in-depth implementations and examples of commonly used 
     
   * [Linear Search ( with space and time complexity )]()  
      
-- 🔍 [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/02_Binary_Search.C)
+- 🔍 [ Binary Search ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/02_Binary_Search.C/Binary_Search.C)
 
   * [ Binary Search ( with space and time complexity )]()  
  
