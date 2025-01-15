@@ -37,11 +37,11 @@ This repository provides in-depth implementations and examples of commonly used 
 <br>
 
 ### 🔹 **2. Sorting Algorithms**
-- 🛁 -   [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/03_Bubble_sort.C)
+- 🛁 -   [ Bubble Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/03_Bubble_sort.C/Bubble_Sort.C)
 
   * [Bubble Sort ( with space and time complexity) ]() 
     
-- ✅ [ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/tree/main/04_Selection_Sort)
+- ✅ [ Selection Sort ](https://github.com/abhinavomanakuttan/Data-Structures-using-C/blob/main/04_Selection_Sort/Selection_Sort.c)
    
   * [Selection Sort (with space and time complexity ) ]()
     
